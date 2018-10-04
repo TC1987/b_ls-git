@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   header.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ncollie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/03 20:14:16 by ncollie           #+#    #+#             */
-/*   Updated: 2018/10/03 20:14:21 by ncollie          ###   ########.fr       */
+/*   Created: 2018/10/03 20:30:58 by ncollie           #+#    #+#             */
+/*   Updated: 2018/10/03 20:31:00 by ncollie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
 
-int g_flags;
+#ifndef HEADER_H
+# define HEADER_H
+#include <stdio.h>
 
-int main(int argc, char **argv)
-{
-    
-    return (0);
-}
+extern int g_flags;
+
+#endif
